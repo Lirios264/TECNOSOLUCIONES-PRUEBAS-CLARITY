@@ -1,0 +1,116 @@
+/*==========================================
+    VARIABLES.CSS
+    Proyecto: TecnoSoluciones
+===========================================*/
+
+:root{
+
+    /*======================================
+        COLORES PRINCIPALES
+    ======================================*/
+
+    --primary:#2E75F9;
+    --primary-dark:#1F5FD4;
+    --primary-light:#EAF2FF;
+
+    --secondary:#75FB4C;
+
+    --white:#FFFFFF;
+    --black:#1B1B1B;
+
+    --gray-50:#FAFAFA;
+    --gray-100:#F5F5F5;
+    --gray-200:#EEEEEE;
+    --gray-300:#E0E0E0;
+    --gray-400:#CCCCCC;
+    --gray-500:#9E9E9E;
+    --gray-600:#757575;
+    --gray-700:#616161;
+    --gray-800:#424242;
+    --gray-900:#212121;
+
+    --success:#2ECC71;
+    --warning:#F39C12;
+    --danger:#E74C3C;
+
+    /*======================================
+        TIPOGRAFÍA
+    ======================================*/
+
+    --font-family:'Poppins', sans-serif;
+
+    --fw-light:300;
+    --fw-regular:400;
+    --fw-medium:500;
+    --fw-semibold:600;
+    --fw-bold:700;
+
+    /*======================================
+        TAMAÑOS
+    ======================================*/
+
+    --fs-xs:.75rem;
+    --fs-sm:.875rem;
+    --fs-md:1rem;
+    --fs-lg:1.125rem;
+    --fs-xl:1.25rem;
+    --fs-2xl:1.5rem;
+    --fs-3xl:2rem;
+    --fs-4xl:2.8rem;
+
+    /*======================================
+        ESPACIADOS
+    ======================================*/
+
+    --space-1:8px;
+    --space-2:16px;
+    --space-3:24px;
+    --space-4:32px;
+    --space-5:40px;
+    --space-6:48px;
+    --space-7:64px;
+    --space-8:80px;
+
+    /*======================================
+        BORDES
+    ======================================*/
+
+    --radius-sm:8px;
+    --radius-md:12px;
+    --radius-lg:18px;
+    --radius-xl:24px;
+    --radius-pill:999px;
+
+    /*======================================
+        SOMBRAS
+    ======================================*/
+
+    --shadow-sm:0 4px 12px rgba(0,0,0,.05);
+
+    --shadow-md:0 10px 25px rgba(0,0,0,.08);
+
+    --shadow-lg:0 18px 40px rgba(0,0,0,.12);
+
+    --shadow-primary:0 15px 35px rgba(46,117,249,.25);
+
+    /*======================================
+        TRANSICIONES
+    ======================================*/
+
+    --transition-fast:.25s ease;
+    --transition:.35s ease;
+    --transition-slow:.5s ease;
+
+    /*======================================
+        CONTENEDOR
+    ======================================*/
+
+    --container:1280px;
+
+    /*======================================
+        HEADER
+    ======================================*/
+
+    --header-height:85px;
+
+}

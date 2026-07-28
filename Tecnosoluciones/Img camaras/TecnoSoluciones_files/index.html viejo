@@ -1,0 +1,116 @@
+<html></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoSoluciones</title>
+
+    <link rel="stylesheet"href="styles.css">
+
+     <!--Enlaces de google fonts para la fuente Poppins-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <!--Menu de navegación-->
+
+</head>
+<body>
+    <header> 
+        <h1>Tecnosoluciones</h1>
+        <nav><a href="#">Inicio</a>
+            <a href="#">Catálogos</a>
+            <a href="#">Servicio Técnico</a>
+        </nav>
+    </header>
+</body>
+</html>
+
+    <!--CARRITO-->
+    <section section class="carrito">
+<h2>Carrito de Compras</h2>
+<div class=" contenedor-carrito">
+    <!--productos-->
+    <div class="producto">
+        <img src="img/camara1.jpg" alt="Cámara de seguridad">
+        <div class="producto-info">
+            <h3>Cámara de seguridad</h3>
+            <p>Resolución: 1080p</p>
+            <h4>Precio: $448.900</h4>
+            </div>
+        </div>
+        <div class="producto">
+        <img src="img/cámara 2.jpg"alt="Cámara Domo">
+        <div class="producto-info">
+            <h3>Cámara Domo HD</h3>
+            <p>Resolución: 1080P. Diseño compacto</p>
+            <h4>Precio: 299.900</h4>
+        </div>
+    </div>
+    <!--REsumen-->
+    <div class="resumen">
+        <h3>Resumen de la compra</h3>
+        <p>Subtotal: $747.900</p>
+        <p>Envio Gratis</p>
+        <p>Total: $747.900</p>
+        <button>Realizar pago</button>
+        <button>Seguir comprando</button>
+    </div>
+</div>
+</section>
+        <!-- FINALIZAR COMPRA -->
+
+        <section class="checkout">
+
+            <h2>Finalizar Compra</h2>
+
+            <div class="formulario">
+
+                <div class="datos">
+
+                    <h3>Información Personal</h3>
+
+                    <input type="text" placeholder="Nombre completo">
+
+                    <input type="email" placeholder="Correo electrónico">
+
+                    <input type="text" placeholder="Número de teléfono">
+
+                </div>
+
+                <div class="datos">
+
+                    <h3>Dirección de Envío</h3>
+
+                    <input type="text" placeholder="Dirección">
+
+                    <input type="text" placeholder="Ciudad">
+
+                    <input type="text" placeholder="Departamento">
+
+                </div>
+
+                <div class="datos">
+
+                    <h3>Método de Pago</h3>
+
+                    <input type="text" placeholder="Número de tarjeta">
+
+                    <input type="text" placeholder="Fecha de expiración">
+
+                    <input type="text" placeholder="CVV">
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Carrito de Compras — Tecnosoluciones</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="imagenes/img.logo.png" alt="Tecnosoluciones" class="brand-logo">
+        <span>Tecnosoluciones</span>
+      </a>
+      <nav class="main-nav">
+        <a href="#">Inicio</a>
+        <a href="#">Catálogo</a>
+        <a href="#">Servicio Técnico</a>
+      </nav>
+      <div class="header-actions">
+        <a class="install-btn" href="#">🔧 Instalación</a>
+        <button class="cart-btn" aria-label="Carrito">🛒</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap page">
+    <h1 class="page-title">Carrito de Compras</h1>
+    <section class="cart-grid">
+      <div class="cart-items">
+        <article class="product" data-price="449000">
+          <div class="product-media">
+            <img src="imagenes/camara.png" alt="Cámara Bullet Exterior IP67" loading="lazy">
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Cámara Bullet Exterior IP67</h3>
+            <p class="product-desc">Resolución 4K, visión nocturna avanzada</p>
+            <div class="product-controls">
+              <div class="price">$449.000 COP</div>
+              <div class="qty">
+                <button class="qty-btn dec">−</button>
+                <input class="qty-input" type="number" min="0" value="1">
+                <button class="qty-btn inc">+</button>
+              </div>
+              <button class="remove">🗑️</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product" data-price="299000">
+          <div class="product-media">
+            <img src="imagenes/camaras1.png" alt="Cámara Domo Interior HD" loading="lazy">
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Cámara Domo Interior HD</h3>
+            <p class="product-desc">Ideal para interiores, detección de movimiento</p>
+            <div class="product-controls">
+              <div class="price">$299.000 COP</div>
+              <div class="qty">
+                <button class="qty-btn dec">−</button>
+                <input class="qty-input" type="number" min="0" value="1">
+                <button class="qty-btn inc">+</button>
+              </div>
+              <button class="remove">🗑️</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <aside class="order-summary">
+        <div class="summary-card">
+          <h2>Resumen del Pedido</h2>
+          <dl class="summary-list">
+            <div class="line"><dt>Subtotal</dt><dd class="subtotal">$0 COP</dd></div>
+            <div class="line"><dt>Envío</dt><dd class="shipping">Gratis</dd></div>
+            <div class="line total"><dt>Total</dt><dd class="total-amount">$0 COP</dd></div>
+          </dl>
+          <a class="btn primary checkout-link" href="checkout.html">Realizar pago →</a>
+          <button class="btn ghost">Seguir Comprando</button>
+          <ul class="summary-notes">
+            <li>✓ Envío gratis a toda Colombia</li>
+            <li>✓ Instalación profesional disponible</li>
+            <li>✓ Garantía de 2 años</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="js/cart.js"></script>
+</body>
+</html>
