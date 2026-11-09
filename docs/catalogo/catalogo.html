@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Catálogo | TecnoSoluciones</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/catalogo.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "z83qtwq9vr");
+</script>
+</head>
+
+<body>
+
+    <!-- ==========================================
+                HEADER
+    =========================================== -->
+<header class="navbar">
+    <a class="logo" href="../index.html">
+        <img src="../imagenes/logo.png" alt="Logo de Tecnosoluciones" class="logo-img">
+        <span class="logo-text">Tecnosoluciones</span>
+    </a>
+    <nav class="nav-menu">
+        <ul>
+            <li><a href="../index.html" class="active">Inicio</a></li>
+            <li><a href="../catalogo/catalogo.html">Catálogo</a></li>
+            <li><a href="../servicio/servicio.html">Servicio Técnico</a></li>
+        </ul>
+    </nav>
+<div class="nav-actions">
+            <a href="../servicio/servicio.html" class="btn-instalacion">Instalación</a>
+            <a href="../cart/checkout.html" class="cart-btn" id="openCart">
+        <span class="win-emoji">🛒</span>
+        <span id="cart-count">0</span> 
+    </a>
+</div>
+</header>
+</body>
+
+</header>
+
+    <!-- ==========================================
+                HERO
+    =========================================== -->
+
+    <section class="catalog-header">
+
+        <div class="container">
+
+            <h1>Cámaras de Seguridad</h1>
+
+            <p>
+                Descubre nuestro catálogo de cámaras de seguridad,
+                grabadores, accesorios y soluciones inteligentes.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================================
+                PRODUCTOS
+    =========================================== -->
+
+    <section class="products">
+
+        <div class="container">
+            <div class="catalog-tools">
+
+    <div class="search-box">
+
+        <i class="ri-search-line"></i>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Buscar productos...">
+
+    </div>
+
+    <div class="filters">
+
+        <button class="filter-btn active">
+            Todos
+        </button>
+
+        <button class="filter-btn">
+            Cámaras
+        </button>
+
+        <button class="filter-btn">
+            DVR
+        </button>
+
+        <button class="filter-btn">
+            Accesorios
+        </button>
+
+    </div>
+
+</div>
+
+            <div id="productsGrid" class="products-grid">
+
+                <!-- JavaScript insertará aquí las tarjetas -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================================
+                CTA
+    =========================================== -->
+
+    <section class="cta">
+
+        <div class="container">
+
+            <div class="cta-box">
+
+                <h2>
+                    ¿Necesitas asesoría personalizada?
+                </h2>
+
+                <p>
+                    Nuestro equipo te ayudará a elegir el sistema de seguridad
+                    ideal para tu hogar o empresa.
+                </p>
+
+                <a href="../servicio/servicio.html" class="btn-white">
+    Solicitar Cotización
+</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================================
+                FOOTER
+    =========================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div>
+
+                <img src="assets/img/logo.png" alt="Logo" class="footer-logo">
+
+                <p>
+                    TecnoSoluciones ofrece soluciones integrales de seguridad,
+                    videovigilancia y soporte tecnológico.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h4>Enlaces</h4>
+
+                <ul>
+
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="../instalacion.html">Instalación</a></li>
+                    <li><a href="../servicio-tecnico.html">Servicio Técnico</a></li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h4>Contacto</h4>
+
+                <ul>
+
+                    <li>📍 Bogotá, Colombia</li>
+                    <li>📞 +57 300 000 0000</li>
+                    <li>✉ contacto@tecnosoluciones.com</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ==========================================
+                DRAWER CARRITO
+    =========================================== -->
+
+    <aside class="cart-drawer" id="cartDrawer">
+
+        <div class="drawer-header">
+
+            <h3>Mi Carrito</h3>
+
+            <button id="closeCart">
+
+                <i class="ri-close-line"></i>
+
+            </button>
+
+        </div>
+
+        <div class="drawer-body" id="cartItems">
+
+            <!-- Productos del carrito -->
+
+        </div>
+
+        <div class="drawer-footer">
+
+            <div class="drawer-total">
+
+                <span>Total</span>
+
+                <strong id="cartTotal">$0</strong>
+
+            </div>
+
+            <button class="checkout-btn">
+
+                Finalizar compra
+
+            </button>
+
+        </div>
+
+    </aside>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Scripts -->
+    <script src="js/products.js"></script>
+    <!-- <script src="js/cart.js"></script> -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
